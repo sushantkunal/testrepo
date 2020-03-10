@@ -10,4 +10,4 @@ spec:
    - name: worker-app
      image: eesprit/voting-app-worker
      ports:
-     -containerPort: 80
+     - containerPort: 80

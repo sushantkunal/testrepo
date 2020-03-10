@@ -10,4 +10,4 @@ spec:
    - name: voting-app
      image: eesprit/voting-app-vote
      ports:
-     -containerPort: 80
+     - containerPort: 80
