@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: voting-app-pod
+  labels:
+    app: voting-app-pod
+    label: demo-voting-app
+spec:
+  containers:
+   - name: voting-app
+     image: eesprit/voting-app-vote
+     ports:
+     -containerPort: 80
